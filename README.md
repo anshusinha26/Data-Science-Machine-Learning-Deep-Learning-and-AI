@@ -77,4 +77,56 @@ Make sure you have the following dependencies installed:
 >> Two plots are created to visualize the results. One plot shows the regression line and the actual data points for the training set, while the other plot shows the regression line and the actual data points for the test set.
 
 
+# 3 Multiple Linear Regression
+
+This Jupyter Notebook demonstrates how to perform multiple linear regression using the `LinearRegression` class from scikit-learn. It includes the following steps:
+
+1. Importing the necessary libraries.
+2. Loading and preparing the dataset.
+3. Encoding categorical data.
+4. Splitting the dataset into training and test sets.
+5. Training the multiple linear regression model on the training set.
+6. Predicting the test set results.
+7. Printing the predicted and actual values.
+
+## Prerequisites
+
+- Python 3.x
+- Jupyter Notebook
+- pandas
+- scikit-learn
+- NumPy
+- matplotlib
+
+## Installation
+
+1. Clone the repository or download the notebook file (`Multiple_linear_regression.ipynb`).
+2. Install the required libraries using pip:
+```bash
+pip install pandas scikit-learn matplotlib
+```
+
+
+## Usage
+
+1. Open the notebook in Jupyter Notebook or JupyterLab.
+2. Run each cell of the notebook sequentially to see the results.
+3. Modify the code as needed for your own dataset or analysis.
+
+## Dataset
+
+The code uses the "50_Startups.csv" dataset, which contains information about 50 startup companies. The dataset includes the following columns:
+
+- R&D Spend: Research and development expenditure
+- Administration: Administrative expenditure
+- Marketing Spend: Marketing expenditure
+- State: State where the startup is located
+- Profit: Profit earned by the startup
+
+You can replace the dataset with your own data by providing the appropriate file path or using a different dataset.
+
+
+
+
+
 
