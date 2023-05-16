@@ -126,6 +126,42 @@ The code uses the "50_Startups.csv" dataset, which contains information about 50
 You can replace the dataset with your own data by providing the appropriate file path or using a different dataset.
 
 
+# 4 Polynomial Regression
+
+This repository contains a Jupyter Notebook file, Polynomial_regression.ipynb, which demonstrates the implementation of polynomial regression using the scikit-learn library in Python. The notebook can be viewed on Google Colaboratory.
+
+## Overview
+
+In this notebook, we explore polynomial regression, a technique used to model non-linear relationships between variables. We train and compare two regression models: linear regression and polynomial regression, and visualize the results using matplotlib.
+
+## Contents
+
+- Importing the libraries
+- Importing the dataset
+- Training the Linear Regression model on the whole dataset
+- Training the Polynomial Regression model on the whole dataset
+- Visualizing the Linear Regression results
+- Visualizing the Polynomial Regression results
+- Visualizing the Polynomial Regression results (for higher resolution and smoother curve)
+- Predicting a new result with Linear Regression
+- Predicting a new result with Polynomial Regression
+
+## Usage
+
+To run the code in this notebook, you need to have the following libraries installed:
+
+- numpy
+- matplotlib
+- pandas
+- scikit-learn
+
+You can install the required libraries using pip:
+    
+```bash
+pip install numpy matplotlib pandas scikit-learn
+```
+
+
 
 
 
