@@ -203,6 +203,34 @@ Predictions are made using the trained model on new input values. The input valu
 The results are visualized using scatter plots and line plots. The scatter plot shows the original data points, while the line plot represents the SVR model's predictions.
 
 
+# 6 Decision Tree Regression
 
+This repository contains a Jupyter Notebook file (Decision_tree_regression.ipynb) that demonstrates how to perform decision tree regression using the scikit-learn library in Python.
+
+## Description
+
+Decision tree regression is a machine learning algorithm that can be used for both classification and regression tasks. It works by partitioning the input space into regions and predicting the target variable based on the average value of the training examples in each region. This approach creates a tree-like model of decisions and their possible consequences.
+
+In this notebook, we will use decision tree regression to predict salaries based on position levels. The dataset used for training and testing the model is provided in the file Position_Salaries.csv.
+
+## Usage
+
+To run this notebook, follow these steps:
+
+    Install the required libraries (numpy, matplotlib, pandas, and scikit-learn) if they are not already installed.
+    Download the Position_Salaries.csv file and place it in the same directory as this notebook.
+    Open the notebook using Jupyter Notebook or Google Colaboratory.
+    Execute each cell in the notebook sequentially to see the output and visualize the results.
+    Note: Make sure to have a working Python environment with the necessary dependencies installed.
+
+## Contents
+
+The notebook consists of the following sections:
+
+    Importing the libraries: This section imports the required libraries for the analysis.
+    Importing the dataset: The dataset is loaded into the notebook and split into input features (X) and target variable (Y).
+    Training the Decision Tree Regression model: A DecisionTreeRegressor model is trained on the entire dataset.
+    Predicting a new result: The trained model is used to predict the salary for a new position level.
+    Visualizing the Decision Tree Regression results: The results are plotted on a graph to visualize the regression line.
 
 
