@@ -162,7 +162,7 @@ pip install numpy matplotlib pandas scikit-learn
 ```
 
 
-# 3 Support Vector Regression (SVR)
+# 5 Support Vector Regression (SVR)
 
 This notebook demonstrates the implementation of Support Vector Regression (SVR) using the Scikit-learn library. SVR is a variant of Support Vector Machines (SVM) used for regression tasks.
 
