@@ -162,6 +162,46 @@ pip install numpy matplotlib pandas scikit-learn
 ```
 
 
+# 3 Support Vector Regression (SVR)
+
+This notebook demonstrates the implementation of Support Vector Regression (SVR) using the Scikit-learn library. SVR is a variant of Support Vector Machines (SVM) used for regression tasks.
+
+## Getting Started
+
+### Prerequisites
+-    Python 3.x
+-    Jupyter Notebook or JupyterLab (recommended)
+-    Installation
+-    Clone the repository or download the notebook file (Support_vector_regression.ipynb).
+-    Install the required libraries using the following command:
+-    Copy code
+-    pip install numpy pandas matplotlib scikit-learn
+-    Run the notebook using Jupyter Notebook or JupyterLab.
+
+## Usage
+
+### The notebook consists of the following main sections:
+
+-    Importing the necessary libraries
+-    Importing the dataset
+-    Feature Scaling
+-    Training the SVR model on the whole dataset
+-    Predicting a new result
+-    Visualizing the SVR results
+-    The code snippets are provided within the notebook, along with explanations for each step.
+
+## Dataset
+
+The notebook uses the "Position_Salaries.csv" dataset, which contains information about different job positions and their corresponding salaries. The dataset is loaded using the pandas library and split into input features (X) and target values (Y).
+
+## Model Training and Evaluation
+
+The SVR model is trained on the entire dataset after scaling the features and target values using the StandardScaler from Scikit-learn. The SVR model is fitted to the scaled data using the fit method.
+
+Predictions are made using the trained model on new input values. The input values are transformed using the scaler, then passed to the predict method of the SVR model. The predictions are inverse transformed using the scaler to obtain the predicted values in their original scale.
+
+The results are visualized using scatter plots and line plots. The scatter plot shows the original data points, while the line plot represents the SVR model's predictions.
+
 
 
 
