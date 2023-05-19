@@ -234,3 +234,53 @@ The notebook consists of the following sections:
     Visualizing the Decision Tree Regression results: The results are plotted on a graph to visualize the regression line.
 
 
+# 7 Random Forest Regression
+
+This code demonstrates the implementation of Random Forest Regression using scikit-learn. It uses a dataset called "Position_Salaries.csv" to predict the salary based on the position level.
+
+## Getting Started
+
+To run the code, you will need to have Python installed on your machine along with the following libraries:
+- numpy
+- matplotlib
+- pandas
+- scikit-learn
+
+You can install the required libraries using pip:
+
+```bash
+pip install numpy matplotlib pandas scikit-learn
+```
+
+
+## Files
+
+- `Random_forest_regression.ipynb`: Jupyter Notebook file containing the code.
+
+## Usage
+
+1. Clone the repository or download the `Random_forest_regression.ipynb` file.
+2. Open the Jupyter Notebook in your preferred environment.
+3. Make sure you have the dataset file "Position_Salaries.csv" in the same directory as the notebook.
+4. Run the code cells in the notebook sequentially to execute the code.
+
+## Dataset
+
+The dataset used in this code is called "Position_Salaries.csv". It contains two columns: "Level" (representing the position level) and "Salary" (the corresponding salary). The code reads this dataset and splits it into input features (X) and target variable (Y).
+
+## Model Training
+
+The Random Forest Regression model is trained on the entire dataset using the RandomForestRegressor class from scikit-learn. The number of decision trees (n_estimators) is set to 10, and the random_state parameter is set to 1 for result reproducibility.
+
+## Prediction
+
+The code predicts the salary for a new position level (6.5) using the trained Random Forest Regression model.
+
+## Visualization
+
+The code visualizes the Random Forest Regression results with a scatter plot of the actual data points and a continuous line representing the predicted values. The plot provides a higher resolution view of the regression curve.
+
+
+
+
+
