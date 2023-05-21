@@ -310,6 +310,45 @@ The code assumes that you have a CSV file named "Social_Network_Ads.csv" contain
 - It will then make predictions on the test set and display the results, including the confusion matrix, accuracy score, and R-squared score.
 - Additionally, it will visualize the training and test set results using scatter plots and decision boundaries.
 
+## 🔹 K-Nearest Neighbors (K-NN) Classifier
+
+This code demonstrates the implementation of the K-Nearest Neighbors (K-NN) algorithm using scikit-learn library. It predicts whether a user would purchase a product based on their age and estimated salary.
+
+### Dataset
+The dataset used in this code is "Social_Network_Ads.csv". It contains information about users, including their age, estimated salary, and whether they purchased a product. The goal is to build a K-NN classifier to predict if a user will purchase a product based on age and estimated salary.
+
+### Code Overview
+The code performs the following steps:
+
+1. Importing the necessary libraries: NumPy, pandas, Matplotlib, and scikit-learn.
+
+2. Importing the dataset: The dataset is loaded from the "Social_Network_Ads.csv" file and split into features (X) and target (Y).
+
+3. Splitting the dataset: The data is split into training and test sets using the `train_test_split` function from scikit-learn.
+
+4. Feature Scaling: The features in the dataset are scaled using the `StandardScaler` from scikit-learn to ensure that they have the same scale.
+
+5. Training the K-NN model: A K-NN classifier is created using the `KNeighborsClassifier` class from scikit-learn and trained on the training set.
+
+6. Predicting a new result: The trained model is used to predict if a user will purchase a product given their age and estimated salary.
+
+7. Predicting the Test set results: The model is used to predict the purchases for the test set, and the predicted values are compared to the actual values.
+
+8. Making the Confusion Matrix: A confusion matrix is computed using the `confusion_matrix` function from scikit-learn to evaluate the model's performance.
+
+9. Visualizing the Training set and Test set results: The training set and test set results are visualized using a scatter plot to show the predicted and actual values. The decision boundary is also displayed.
+
+### Instructions
+1. Ensure that you have the required libraries installed: NumPy, pandas, Matplotlib, and scikit-learn.
+
+2. Download the "Social_Network_Ads.csv" dataset and place it in the same directory as the code.
+
+3. Run the code to train the K-NN classifier and visualize the results.
+
+Feel free to modify the code to experiment with different parameters or apply it to your own datasets.
+
+
+
 
 
 
