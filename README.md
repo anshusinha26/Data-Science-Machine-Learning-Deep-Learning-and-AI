@@ -1,8 +1,10 @@
-# 1 Data Preprocessing Tools
+# 🟥 Regression 
+
+## 🔹 Data Preprocessing Tools
 
 This repository contains code for data preprocessing using Python and scikit-learn.
 
-## Overview
+### Overview
 
 The data preprocessing tools provided in this repository include:
 
@@ -11,7 +13,7 @@ The data preprocessing tools provided in this repository include:
 - Splitting the dataset into training and testing sets using `train_test_split`
 - Feature scaling using `StandardScaler`
 
-## Installation
+### Installation
 
 To run this code, make sure you have the following dependencies installed:
 
@@ -21,7 +23,7 @@ To run this code, make sure you have the following dependencies installed:
 
 You can install them using pip:
 
-## Code Usage
+### Code Usage
 
 1. Clone the repository or download the code files.
 
@@ -32,15 +34,15 @@ You can install them using pip:
 4. Run the code and observe the output.
 
 
-# 2 Simple Linear Regression
+## 🔹 Simple Linear Regression
 
 This repository contains code for implementing simple linear regression. It demonstrates how to train a linear regression model using the scikit-learn library and visualize the results.
 
-## Getting Started
+### Getting Started
 
 To get started with this code, follow the instructions below.
 
-### Prerequisites
+#### Prerequisites
 
 Make sure you have the following dependencies installed:
 
@@ -50,7 +52,7 @@ Make sure you have the following dependencies installed:
 - pandas
 - scikit-learn
 
-## Code Explanation
+### Code Explanation
 
 1. Importing the Libraries
 
@@ -76,8 +78,7 @@ Make sure you have the following dependencies installed:
 
 >> Two plots are created to visualize the results. One plot shows the regression line and the actual data points for the training set, while the other plot shows the regression line and the actual data points for the test set.
 
-
-# 3 Multiple Linear Regression
+## 🔹 Multiple Linear Regression
 
 This Jupyter Notebook demonstrates how to perform multiple linear regression using the `LinearRegression` class from scikit-learn. It includes the following steps:
 
@@ -89,7 +90,7 @@ This Jupyter Notebook demonstrates how to perform multiple linear regression usi
 6. Predicting the test set results.
 7. Printing the predicted and actual values.
 
-## Prerequisites
+### Prerequisites
 
 - Python 3.x
 - Jupyter Notebook
@@ -98,7 +99,7 @@ This Jupyter Notebook demonstrates how to perform multiple linear regression usi
 - NumPy
 - matplotlib
 
-## Installation
+### Installation
 
 1. Clone the repository or download the notebook file (`Multiple_linear_regression.ipynb`).
 2. Install the required libraries using pip:
@@ -107,13 +108,13 @@ pip install pandas scikit-learn matplotlib
 ```
 
 
-## Usage
+### Usage
 
 1. Open the notebook in Jupyter Notebook or JupyterLab.
 2. Run each cell of the notebook sequentially to see the results.
 3. Modify the code as needed for your own dataset or analysis.
 
-## Dataset
+### Dataset
 
 The code uses the "50_Startups.csv" dataset, which contains information about 50 startup companies. The dataset includes the following columns:
 
@@ -125,16 +126,15 @@ The code uses the "50_Startups.csv" dataset, which contains information about 50
 
 You can replace the dataset with your own data by providing the appropriate file path or using a different dataset.
 
-
-# 4 Polynomial Regression
+## 🔹 Polynomial Regression
 
 This repository contains a Jupyter Notebook file, Polynomial_regression.ipynb, which demonstrates the implementation of polynomial regression using the scikit-learn library in Python. The notebook can be viewed on Google Colaboratory.
 
-## Overview
+### Overview
 
 In this notebook, we explore polynomial regression, a technique used to model non-linear relationships between variables. We train and compare two regression models: linear regression and polynomial regression, and visualize the results using matplotlib.
 
-## Contents
+### Contents
 
 - Importing the libraries
 - Importing the dataset
@@ -146,7 +146,7 @@ In this notebook, we explore polynomial regression, a technique used to model no
 - Predicting a new result with Linear Regression
 - Predicting a new result with Polynomial Regression
 
-## Usage
+### Usage
 
 To run the code in this notebook, you need to have the following libraries installed:
 
@@ -161,14 +161,13 @@ You can install the required libraries using pip:
 pip install numpy matplotlib pandas scikit-learn
 ```
 
-
-# 5 Support Vector Regression (SVR)
+## 🔹 Support Vector Regression (SVR)
 
 This notebook demonstrates the implementation of Support Vector Regression (SVR) using the Scikit-learn library. SVR is a variant of Support Vector Machines (SVM) used for regression tasks.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 -    Python 3.x
 -    Jupyter Notebook or JupyterLab (recommended)
 -    Installation
@@ -178,9 +177,9 @@ This notebook demonstrates the implementation of Support Vector Regression (SVR)
 -    pip install numpy pandas matplotlib scikit-learn
 -    Run the notebook using Jupyter Notebook or JupyterLab.
 
-## Usage
+### Usage
 
-### The notebook consists of the following main sections:
+#### The notebook consists of the following main sections:
 
 -    Importing the necessary libraries
 -    Importing the dataset
@@ -190,11 +189,11 @@ This notebook demonstrates the implementation of Support Vector Regression (SVR)
 -    Visualizing the SVR results
 -    The code snippets are provided within the notebook, along with explanations for each step.
 
-## Dataset
+### Dataset
 
 The notebook uses the "Position_Salaries.csv" dataset, which contains information about different job positions and their corresponding salaries. The dataset is loaded using the pandas library and split into input features (X) and target values (Y).
 
-## Model Training and Evaluation
+### Model Training and Evaluation
 
 The SVR model is trained on the entire dataset after scaling the features and target values using the StandardScaler from Scikit-learn. The SVR model is fitted to the scaled data using the fit method.
 
@@ -202,18 +201,17 @@ Predictions are made using the trained model on new input values. The input valu
 
 The results are visualized using scatter plots and line plots. The scatter plot shows the original data points, while the line plot represents the SVR model's predictions.
 
-
-# 6 Decision Tree Regression
+## 🔹 Decision Tree Regression
 
 This repository contains a Jupyter Notebook file (Decision_tree_regression.ipynb) that demonstrates how to perform decision tree regression using the scikit-learn library in Python.
 
-## Description
+### Description
 
 Decision tree regression is a machine learning algorithm that can be used for both classification and regression tasks. It works by partitioning the input space into regions and predicting the target variable based on the average value of the training examples in each region. This approach creates a tree-like model of decisions and their possible consequences.
 
 In this notebook, we will use decision tree regression to predict salaries based on position levels. The dataset used for training and testing the model is provided in the file Position_Salaries.csv.
 
-## Usage
+### Usage
 
 To run this notebook, follow these steps:
 
@@ -223,7 +221,7 @@ To run this notebook, follow these steps:
     Execute each cell in the notebook sequentially to see the output and visualize the results.
     Note: Make sure to have a working Python environment with the necessary dependencies installed.
 
-## Contents
+### Contents
 
 The notebook consists of the following sections:
 
@@ -233,12 +231,11 @@ The notebook consists of the following sections:
     Predicting a new result: The trained model is used to predict the salary for a new position level.
     Visualizing the Decision Tree Regression results: The results are plotted on a graph to visualize the regression line.
 
-
-# 7 Random Forest Regression
+## 🔹 Random Forest Regression
 
 This code demonstrates the implementation of Random Forest Regression using scikit-learn. It uses a dataset called "Position_Salaries.csv" to predict the salary based on the position level.
 
-## Getting Started
+### Getting Started
 
 To run the code, you will need to have Python installed on your machine along with the following libraries:
 - numpy
@@ -253,32 +250,68 @@ pip install numpy matplotlib pandas scikit-learn
 ```
 
 
-## Files
+### Files
 
 - `Random_forest_regression.ipynb`: Jupyter Notebook file containing the code.
 
-## Usage
+### Usage
 
 1. Clone the repository or download the `Random_forest_regression.ipynb` file.
 2. Open the Jupyter Notebook in your preferred environment.
 3. Make sure you have the dataset file "Position_Salaries.csv" in the same directory as the notebook.
 4. Run the code cells in the notebook sequentially to execute the code.
 
-## Dataset
+### Dataset
 
 The dataset used in this code is called "Position_Salaries.csv". It contains two columns: "Level" (representing the position level) and "Salary" (the corresponding salary). The code reads this dataset and splits it into input features (X) and target variable (Y).
 
-## Model Training
+### Model Training
 
 The Random Forest Regression model is trained on the entire dataset using the RandomForestRegressor class from scikit-learn. The number of decision trees (n_estimators) is set to 10, and the random_state parameter is set to 1 for result reproducibility.
 
-## Prediction
+### Prediction
 
 The code predicts the salary for a new position level (6.5) using the trained Random Forest Regression model.
 
-## Visualization
+### Visualization
 
 The code visualizes the Random Forest Regression results with a scatter plot of the actual data points and a continuous line representing the predicted values. The plot provides a higher resolution view of the regression curve.
+
+
+# 🟧 Classification
+
+## 🔹 Logistic Regression
+
+This code performs logistic regression on a dataset to predict whether a customer will purchase a product based on their age and estimated salary. It uses the scikit-learn library to train a logistic regression model and evaluate its performance.
+
+### Dependencies
+
+Make sure you have the following dependencies installed:
+
+- NumPy
+- Matplotlib
+- Pandas
+- scikit-learn
+
+You can install them using pip:
+```bash
+pip install numpy matplotlib pandas scikit-learn
+```
+
+### Dataset
+
+The code assumes that you have a CSV file named "Social_Network_Ads.csv" containing the dataset. You can replace the file path in the code with the correct path to your dataset.
+
+### Running the Code
+
+- Make sure you have the dataset file available and the dependencies installed.
+- Run the code in a Python environment such as Jupyter Notebook or a Python script.
+- The code will load the dataset, split it into training and test sets, perform feature scaling, and train a logistic regression model.
+- It will then make predictions on the test set and display the results, including the confusion matrix, accuracy score, and R-squared score.
+- Additionally, it will visualize the training and test set results using scatter plots and decision boundaries.
+
+
+
 
 
 
