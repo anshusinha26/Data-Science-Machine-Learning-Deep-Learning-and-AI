@@ -347,12 +347,46 @@ The code performs the following steps:
 
 Feel free to modify the code to experiment with different parameters or apply it to your own datasets.
 
+## 🔹 Support Vector Machine (SVM)
 
+This repository contains a Jupyter Notebook (`Support_vector_machine.ipynb`) that demonstrates how to use a Support Vector Machine (SVM) classifier for classification tasks. It uses the scikit-learn library in Python.
 
+Support Vector Machine is a powerful supervised learning algorithm used for both classification and regression tasks. It constructs a hyperplane or set of hyperplanes in a high-dimensional feature space to separate different classes. In this notebook, we use an SVM classifier with an RBF kernel.
 
+### Getting Started
 
+To run the notebook and execute the code, follow these steps:
 
+1. Clone the repository to your local machine or download the `Support_vector_machine.ipynb` file directly.
 
+2. Install the required dependencies by running the following command:
 
+```bash
+pip install scikit-learn matplotlib pandas
+```
 
+3. Launch Jupyter Notebook by running the command:
 
+```bash
+jupyter notebook
+```
+
+4. Open the `Support_vector_machine.ipynb` notebook in your Jupyter Notebook environment.
+
+5. Execute the code cells in the notebook sequentially to see the SVM classifier in action.
+
+### Contents
+
+The notebook covers the following topics:
+
+1. Importing the necessary libraries.
+2. Importing the dataset (`Social_Network_Ads.csv`).
+3. Splitting the dataset into the training set and test set.
+4. Feature scaling using the StandardScaler.
+5. Training the SVM model on the training set.
+6. Predicting new results and evaluating the model's performance.
+7. Visualizing the training set and test set results.
+
+### Dataset
+
+The dataset used in this example (`Social_Network_Ads.csv`) contains information about users' age, estimated salary, and whether they purchased a particular product or not. The goal is to train an SVM model to predict whether a user will purchase the product based on their age and estimated salary.
