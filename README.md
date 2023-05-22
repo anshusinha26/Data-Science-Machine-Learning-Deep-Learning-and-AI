@@ -435,3 +435,42 @@ The notebook contains code for various steps, including data preprocessing, mode
 - Predicting new results using the trained model
 - Evaluating the model's performance using a confusion matrix and accuracy score
 - Visualizing the results on both the training and test sets
+
+## 🔹 Naive Bayes Classifier
+
+This repository contains an example implementation of the Naive Bayes classifier using scikit-learn library in Python. The code demonstrates how to train a Naive Bayes model on a dataset, make predictions, and visualize the results.
+
+### Dependencies
+
+Make sure you have the following dependencies installed:
+
+- Python (3.x recommended)
+- NumPy
+- matplotlib
+- pandas
+- scikit-learn
+
+You can install the required dependencies using pip:
+
+```bash
+    pip install numpy matplotlib pandas scikit-learn
+```
+
+### Dataset
+
+The code uses the "Social_Network_Ads.csv" dataset, which contains information about users in a social network. The dataset has the following columns:
+
+- `Age`: Age of the user
+- `EstimatedSalary`: Estimated salary of the user
+- `Purchased`: Whether the user purchased a product (1 if purchased, 0 otherwise)
+
+### Usage
+
+1. Clone this repository or download the "Naive_bayes.ipynb" file.
+
+2. Open the notebook in Jupyter Notebook or any other compatible environment.
+
+3. Run the notebook cell by cell to see the step-by-step process of training the Naive Bayes model, making predictions, and visualizing the results.
+
+Note: Make sure to have the "Social_Network_Ads.csv" file in the same directory as the notebook.
+
