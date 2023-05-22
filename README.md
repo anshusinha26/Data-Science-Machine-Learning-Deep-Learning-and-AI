@@ -104,7 +104,7 @@ This Jupyter Notebook demonstrates how to perform multiple linear regression usi
 1. Clone the repository or download the notebook file (`Multiple_linear_regression.ipynb`).
 2. Install the required libraries using pip:
 ```bash
-pip install pandas scikit-learn matplotlib
+    pip install pandas scikit-learn matplotlib
 ```
 
 
@@ -158,7 +158,7 @@ To run the code in this notebook, you need to have the following libraries insta
 You can install the required libraries using pip:
     
 ```bash
-pip install numpy matplotlib pandas scikit-learn
+    pip install numpy matplotlib pandas scikit-learn
 ```
 
 ## 🔹 Support Vector Regression (SVR)
@@ -246,7 +246,7 @@ To run the code, you will need to have Python installed on your machine along wi
 You can install the required libraries using pip:
 
 ```bash
-pip install numpy matplotlib pandas scikit-learn
+    pip install numpy matplotlib pandas scikit-learn
 ```
 
 
@@ -295,7 +295,7 @@ Make sure you have the following dependencies installed:
 
 You can install them using pip:
 ```bash
-pip install numpy matplotlib pandas scikit-learn
+    pip install numpy matplotlib pandas scikit-learn
 ```
 
 ### Dataset
@@ -362,13 +362,13 @@ To run the notebook and execute the code, follow these steps:
 2. Install the required dependencies by running the following command:
 
 ```bash
-pip install scikit-learn matplotlib pandas
+    pip install scikit-learn matplotlib pandas
 ```
 
 3. Launch Jupyter Notebook by running the command:
 
 ```bash
-jupyter notebook
+    jupyter notebook
 ```
 
 4. Open the `Support_vector_machine.ipynb` notebook in your Jupyter Notebook environment.
@@ -390,3 +390,48 @@ The notebook covers the following topics:
 ### Dataset
 
 The dataset used in this example (`Social_Network_Ads.csv`) contains information about users' age, estimated salary, and whether they purchased a particular product or not. The goal is to train an SVM model to predict whether a user will purchase the product based on their age and estimated salary.
+
+## 🔹 Kernel SVM
+
+This repository contains a Jupyter Notebook file (`Kernel_svm.ipynb`) that demonstrates the implementation of a kernel support vector machine (SVM) model for classification. The code uses the scikit-learn library in Python.
+
+### Dataset
+
+The code uses the "Social_Network_Ads.csv" dataset, which is included in the repository. The dataset contains information about users' age, estimated salary, and whether they purchased a product (target variable).
+
+### Getting Started
+
+1. Clone the repository:
+
+```bash 
+   git clone https://github.com/your-username/kernel-svm.git
+   cd kernel-svm
+```
+
+2. Install the required dependencies. You can use pip to install the necessary packages:
+
+```bash
+    pip install pandas matplotlib scikit-learn
+```
+
+3. Run the Jupyter Notebook:
+
+```bash
+    jupyter notebook Kernel_svm.ipynb
+```
+
+This will open the notebook in your browser.
+
+4. Follow the instructions in the notebook to execute each code cell and observe the results.
+
+### Results
+
+The notebook contains code for various steps, including data preprocessing, model training, prediction, evaluation, and visualization. It demonstrates the following:
+
+- Importing and exploring the dataset
+- Splitting the dataset into training and test sets
+- Feature scaling
+- Training a kernel SVM model on the training set
+- Predicting new results using the trained model
+- Evaluating the model's performance using a confusion matrix and accuracy score
+- Visualizing the results on both the training and test sets
