@@ -513,3 +513,39 @@ The code uses the "Social_Network_Ads.csv" dataset, which contains information a
 
 Note: Make sure to have the "Social_Network_Ads.csv" file in the same directory as the notebook.
 
+## 🔹 Random Forest Classification
+
+This repository contains an example of training a Random Forest Classifier model for classification using the scikit-learn library in Python.
+
+### Dataset
+
+The dataset used in this example is "Social_Network_Ads.csv". It contains information about users in a social network, including their age and estimated salary, as well as whether or not they purchased a product. The goal is to predict whether a user will purchase a product based on their age and estimated salary.
+
+### Dependencies
+
+- Python (version 3.x)
+- scikit-learn (version 0.24.2)
+- NumPy (version 1.20.3)
+- Matplotlib (version 3.4.2)
+- pandas (version 1.3.0)
+
+### Instructions
+
+1. Clone the repository or download the "Random_forest_classification.ipynb" file.
+
+2. Install the required dependencies mentioned above, preferably using a virtual environment.
+
+3. Run the Jupyter notebook file "Random_forest_classification.ipynb" using Jupyter Notebook or any compatible IDE.
+
+4. The notebook will guide you through the following steps:
+
+   - Importing the necessary libraries.
+   - Loading and preprocessing the dataset.
+   - Splitting the data into training and test sets.
+   - Scaling the features.
+   - Training the Random Forest Classifier model.
+   - Making predictions on new data.
+   - Evaluating the model's performance using a confusion matrix and accuracy score.
+   - Visualizing the results on the training and test sets.
+
+Note: The code assumes that the dataset file "Social_Network_Ads.csv" is present in the same directory as the notebook file.
