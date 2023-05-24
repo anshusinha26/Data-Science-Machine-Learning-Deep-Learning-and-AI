@@ -549,3 +549,48 @@ The dataset used in this example is "Social_Network_Ads.csv". It contains inform
    - Visualizing the results on the training and test sets.
 
 Note: The code assumes that the dataset file "Social_Network_Ads.csv" is present in the same directory as the notebook file.
+
+
+# 🟨 Clustering
+
+## 🔹 K-Means Clustering
+
+This repository contains a Jupyter Notebook (`K_means_clustering.ipynb`) that demonstrates the application of K-means clustering algorithm on a dataset of mall customers.
+
+### Contents
+
+- `K_means_clustering.ipynb`: Jupyter Notebook containing the code and analysis.
+- `Mall_Customers.csv`: Dataset file (CSV format) containing customer information.
+
+### Dataset
+
+The dataset used in this project is called "Mall_Customers.csv." It provides information about customers of a mall, including their annual income and spending score. The goal is to segment the customers into different clusters based on these attributes.
+
+### Prerequisites
+
+To run the code in the Jupyter Notebook, the following libraries are required:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+You can install these libraries using pip or any other package manager.
+
+### How to Use
+
+1. Clone the repository or download the files.
+2. Make sure you have the required libraries installed.
+3. Open the `K_means_clustering.ipynb` notebook in Jupyter Notebook or any compatible environment.
+4. Run the notebook cells to execute the code step-by-step.
+5. The notebook demonstrates the following:
+   - Importing the dataset
+   - Using the elbow method to determine the optimal number of clusters
+   - Training the K-means model on the dataset
+   - Visualizing the clusters
+
+### Results
+
+The main result of this project is the visualization of customer clusters using the K-means algorithm. The scatter plot shows the different clusters identified and the centroids of each cluster.
+
+The analysis can provide insights into customer segmentation, helping businesses understand and target different customer groups based on their income and spending behavior.
