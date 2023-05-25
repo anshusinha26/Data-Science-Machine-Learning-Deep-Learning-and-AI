@@ -811,3 +811,49 @@ The algorithm iteratively selects ads based on a probabilistic calculation using
 ### Results
 
 After running the algorithm for a specified number of rounds, the notebook visualizes the results using a histogram. The histogram displays the number of times each ad was selected over the course of the experiment.
+
+
+# 🟪 Natural language processing (NLP)
+
+## 🔹 Bag of words -  Natural Language Processing
+
+This repository contains code for a natural language processing project that performs sentiment analysis on restaurant reviews. The goal is to classify the reviews as either positive or negative based on their text.
+
+### Project Overview
+
+The project includes the following steps:
+
+1. Importing the required libraries for data processing and analysis.
+2. Importing the dataset of restaurant reviews.
+3. Cleaning the text data by removing non-alphabetic characters, converting to lowercase, and applying stemming.
+4. Creating a bag of words model to represent the text data as numerical features.
+5. Splitting the dataset into training and test sets.
+6. Training a Naive Bayes model on the training set.
+7. Predicting the sentiment of the test set reviews.
+8. Evaluating the model performance using a confusion matrix and accuracy score.
+
+### Files
+
+- `Natural_language_processing.ipynb`: The Jupyter Notebook file containing the project code.
+
+### Dataset
+
+The dataset used in this project is named `Restaurant_Reviews.tsv`. It is a tab-separated values (TSV) file that contains a collection of restaurant reviews along with their corresponding sentiment labels (positive or negative).
+
+### Setup Instructions
+
+To run the code in this project, follow these steps:
+
+1. Clone the repository or download the `Natural_language_processing.ipynb` file.
+2. Install the required dependencies: numpy, matplotlib, pandas, nltk, and scikit-learn.
+3. Download the NLTK stopwords corpus by running `nltk.download('stopwords')`.
+4. Place the `Restaurant_Reviews.tsv` file in the same directory as the Jupyter Notebook file.
+5. Open the Jupyter Notebook and execute the code cells sequentially.
+
+Note: Make sure you have Python 3 and Jupyter Notebook installed on your system.
+
+### Results
+
+The model's performance is evaluated using a confusion matrix and accuracy score. The confusion matrix provides insights into the true positive, true negative, false positive, and false negative predictions. The accuracy score indicates the overall accuracy of the model in classifying the reviews.
+
+The project aims to demonstrate the application of natural language processing techniques for sentiment analysis. Feel free to explore the code and experiment with different algorithms or datasets.
