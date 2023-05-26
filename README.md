@@ -1,4 +1,4 @@
-# 🟥 Regression 
+# 🟥 Regression
 
 ## 🔹 Data Preprocessing Tools
 
@@ -33,7 +33,6 @@ You can install them using pip:
 
 4. Run the code and observe the output.
 
-
 ## 🔹 Simple Linear Regression
 
 This repository contains code for implementing simple linear regression. It demonstrates how to train a linear regression model using the scikit-learn library and visualize the results.
@@ -56,27 +55,27 @@ Make sure you have the following dependencies installed:
 
 1. Importing the Libraries
 
->> The necessary libraries (NumPy, matplotlib, and pandas) are imported to handle data manipulation and visualization.
+> > The necessary libraries (NumPy, matplotlib, and pandas) are imported to handle data manipulation and visualization.
 
 2. Importing the Dataset
 
->> The dataset (Salary_Data.csv) is imported using pandas. The independent variable (X) and dependent variable (Y) are extracted from the dataset.
+> > The dataset (Salary_Data.csv) is imported using pandas. The independent variable (X) and dependent variable (Y) are extracted from the dataset.
 
 3. Splitting the Dataset
 
->> The dataset is split into training and test sets using the train_test_split function from scikit-learn. This allows us to evaluate the model's performance on unseen data.
+> > The dataset is split into training and test sets using the train_test_split function from scikit-learn. This allows us to evaluate the model's performance on unseen data.
 
 4. Training the Model
 
->> A linear regression model is created using the LinearRegression class from scikit-learn. The model is trained on the training data using the fit method.
+> > A linear regression model is created using the LinearRegression class from scikit-learn. The model is trained on the training data using the fit method.
 
 5. Predicting the Test Set Results
 
->> The trained model is used to make predictions on the test data (X_test), and the predicted values are stored in Y_pred.
+> > The trained model is used to make predictions on the test data (X_test), and the predicted values are stored in Y_pred.
 
 6. Visualizing the Results
 
->> Two plots are created to visualize the results. One plot shows the regression line and the actual data points for the training set, while the other plot shows the regression line and the actual data points for the test set.
+> > Two plots are created to visualize the results. One plot shows the regression line and the actual data points for the training set, while the other plot shows the regression line and the actual data points for the test set.
 
 ## 🔹 Multiple Linear Regression
 
@@ -103,10 +102,10 @@ This Jupyter Notebook demonstrates how to perform multiple linear regression usi
 
 1. Clone the repository or download the notebook file (`Multiple_linear_regression.ipynb`).
 2. Install the required libraries using pip:
+
 ```bash
     pip install pandas scikit-learn matplotlib
 ```
-
 
 ### Usage
 
@@ -156,7 +155,7 @@ To run the code in this notebook, you need to have the following libraries insta
 - scikit-learn
 
 You can install the required libraries using pip:
-    
+
 ```bash
     pip install numpy matplotlib pandas scikit-learn
 ```
@@ -168,26 +167,27 @@ This notebook demonstrates the implementation of Support Vector Regression (SVR)
 ### Getting Started
 
 #### Prerequisites
--    Python 3.x
--    Jupyter Notebook or JupyterLab (recommended)
--    Installation
--    Clone the repository or download the notebook file (Support_vector_regression.ipynb).
--    Install the required libraries using the following command:
--    Copy code
--    pip install numpy pandas matplotlib scikit-learn
--    Run the notebook using Jupyter Notebook or JupyterLab.
+
+- Python 3.x
+- Jupyter Notebook or JupyterLab (recommended)
+- Installation
+- Clone the repository or download the notebook file (Support_vector_regression.ipynb).
+- Install the required libraries using the following command:
+- Copy code
+- pip install numpy pandas matplotlib scikit-learn
+- Run the notebook using Jupyter Notebook or JupyterLab.
 
 ### Usage
 
 #### The notebook consists of the following main sections:
 
--    Importing the necessary libraries
--    Importing the dataset
--    Feature Scaling
--    Training the SVR model on the whole dataset
--    Predicting a new result
--    Visualizing the SVR results
--    The code snippets are provided within the notebook, along with explanations for each step.
+- Importing the necessary libraries
+- Importing the dataset
+- Feature Scaling
+- Training the SVR model on the whole dataset
+- Predicting a new result
+- Visualizing the SVR results
+- The code snippets are provided within the notebook, along with explanations for each step.
 
 ### Dataset
 
@@ -238,6 +238,7 @@ This code demonstrates the implementation of Random Forest Regression using scik
 ### Getting Started
 
 To run the code, you will need to have Python installed on your machine along with the following libraries:
+
 - numpy
 - matplotlib
 - pandas
@@ -248,7 +249,6 @@ You can install the required libraries using pip:
 ```bash
     pip install numpy matplotlib pandas scikit-learn
 ```
-
 
 ### Files
 
@@ -277,7 +277,6 @@ The code predicts the salary for a new position level (6.5) using the trained Ra
 
 The code visualizes the Random Forest Regression results with a scatter plot of the actual data points and a continuous line representing the predicted values. The plot provides a higher resolution view of the regression curve.
 
-
 # 🟧 Classification
 
 ## 🔹 Logistic Regression
@@ -294,6 +293,7 @@ Make sure you have the following dependencies installed:
 - scikit-learn
 
 You can install them using pip:
+
 ```bash
     pip install numpy matplotlib pandas scikit-learn
 ```
@@ -315,9 +315,11 @@ The code assumes that you have a CSV file named "Social_Network_Ads.csv" contain
 This code demonstrates the implementation of the K-Nearest Neighbors (K-NN) algorithm using scikit-learn library. It predicts whether a user would purchase a product based on their age and estimated salary.
 
 ### Dataset
+
 The dataset used in this code is "Social_Network_Ads.csv". It contains information about users, including their age, estimated salary, and whether they purchased a product. The goal is to build a K-NN classifier to predict if a user will purchase a product based on age and estimated salary.
 
 ### Code Overview
+
 The code performs the following steps:
 
 1. Importing the necessary libraries: NumPy, pandas, Matplotlib, and scikit-learn.
@@ -339,6 +341,7 @@ The code performs the following steps:
 9. Visualizing the Training set and Test set results: The training set and test set results are visualized using a scatter plot to show the predicted and actual values. The decision boundary is also displayed.
 
 ### Instructions
+
 1. Ensure that you have the required libraries installed: NumPy, pandas, Matplotlib, and scikit-learn.
 
 2. Download the "Social_Network_Ads.csv" dataset and place it in the same directory as the code.
@@ -403,7 +406,7 @@ The code uses the "Social_Network_Ads.csv" dataset, which is included in the rep
 
 1. Clone the repository:
 
-```bash 
+```bash
    git clone https://github.com/your-username/kernel-svm.git
    cd kernel-svm
 ```
@@ -494,7 +497,6 @@ You can install the required dependencies using pip:
 pip install numpy matplotlib pandas scikit-learn
 ```
 
-
 ### Dataset
 
 The code uses the "Social_Network_Ads.csv" dataset, which contains information about users in a social network. The dataset has the following columns:
@@ -549,7 +551,6 @@ The dataset used in this example is "Social_Network_Ads.csv". It contains inform
    - Visualizing the results on the training and test sets.
 
 Note: The code assumes that the dataset file "Social_Network_Ads.csv" is present in the same directory as the notebook file.
-
 
 # 🟨 Clustering
 
@@ -639,7 +640,6 @@ The dataset used for this analysis is `Mall_Customers.csv`, which contains infor
 
 9. You can save any necessary outputs or images generated by the notebook for future reference or reporting.
 
-
 # 🟩 Association rule learning
 
 ## 🔹 Apriori
@@ -704,7 +704,6 @@ You can install the dependencies using the following command:
 
 pip install numpy matplotlib pandas apyori
 
-
 ### Dataset
 
 The dataset used for this analysis is `Market_Basket_Optimisation.csv`, which contains transactional data from a market. The dataset should be placed in the same directory as the notebook.
@@ -730,7 +729,6 @@ The dataset used for this analysis is `Market_Basket_Optimisation.csv`, which co
 9. Feel free to explore and analyze the frequent itemsets further by adapting the code or adding your own analysis techniques.
 
 10. You can save any necessary outputs or images generated by the notebook for future reference or reporting.
-
 
 # 🟦 Reinforcement learning
 
@@ -812,10 +810,9 @@ The algorithm iteratively selects ads based on a probabilistic calculation using
 
 After running the algorithm for a specified number of rounds, the notebook visualizes the results using a histogram. The histogram displays the number of times each ad was selected over the course of the experiment.
 
-
 # 🟪 Natural language processing (NLP)
 
-## 🔹 Bag of words -  Natural Language Processing
+## 🔹 Bag of words - Natural Language Processing
 
 This repository contains code for a natural language processing project that performs sentiment analysis on restaurant reviews. The goal is to classify the reviews as either positive or negative based on their text.
 
@@ -857,7 +854,6 @@ Note: Make sure you have Python 3 and Jupyter Notebook installed on your system.
 The model's performance is evaluated using a confusion matrix and accuracy score. The confusion matrix provides insights into the true positive, true negative, false positive, and false negative predictions. The accuracy score indicates the overall accuracy of the model in classifying the reviews.
 
 The project aims to demonstrate the application of natural language processing techniques for sentiment analysis. Feel free to explore the code and experiment with different algorithms or datasets.
-
 
 # ⬛️ Dimensionality reduction
 
@@ -991,7 +987,6 @@ Note: Make sure to update the file path in the code if the dataset is located in
 
 The notebook generates visualizations of the training set and test set results, showing the decision boundaries of the Logistic Regression model in the reduced-dimensional space obtained through Kernel PCA.
 
-
 # ⬜️ Model selection
 
 ## 🔹 k-Fold Cross Validation
@@ -1027,3 +1022,45 @@ The notebook K_fold_cross_validation.ipynb demonstrates the application of k-Fol
 To run the notebook, you will need Jupyter Notebook installed. You can open the notebook in Jupyter and execute the code cells sequentially.
 
 Make sure to have the Social_Network_Ads.csv file in the same directory as the notebook or provide the correct path to the dataset file in the code.
+
+## 🔹 Grid Search
+
+This Jupyter Notebook demonstrates the implementation of Grid Search, a technique used to find the best combination of hyperparameters for a machine learning model. In this example, we use the Support Vector Machine (SVM) algorithm with an RBF kernel to classify the Social Network Ads dataset.
+
+### Importing the libraries
+
+The necessary libraries, including numpy, matplotlib, and pandas, are imported at the beginning of the notebook.
+
+### Importing the dataset
+
+The Social Network Ads dataset is imported using pandas. The dataset is then divided into the feature matrix X and the target vector Y.
+
+### Splitting the dataset into the Training set and Test set
+
+The dataset is split into training and test sets using the train_test_split function from the sklearn.model_selection module. The training set consists of 75% of the data, while the remaining 25% is allocated to the test set.
+
+### Feature Scaling
+
+Feature scaling is performed using the StandardScaler class from the sklearn.preprocessing module. This step ensures that all features are on a similar scale, which is important for SVM algorithms.
+
+### Training the Kernel SVM model on the Training set
+
+The SVM model with an RBF kernel is instantiated and trained on the training set using the SVC class from the sklearn.svm module.
+
+### Making the Confusion Matrix
+
+The trained model is used to make predictions on the test set, and the confusion matrix and accuracy score are computed using functions from the sklearn.metrics module.
+
+### Applying k-Fold Cross Validation
+
+The k-Fold Cross Validation technique is applied to evaluate the model's performance. The cross_val_score function from the sklearn.model_selection module is used to calculate the accuracy scores for the model using 10-fold cross-validation.
+
+### Applying Grid Search to find the best model and the best parameters
+
+Grid Search is performed to find the best combination of hyperparameters for the SVM model. The GridSearchCV class from the sklearn.model_selection module is used, and a parameter grid is specified containing different values for the regularization parameter C, kernel types, and gamma values for the RBF kernel. The best accuracy score and corresponding best parameters are printed.
+
+### Visualizing the Training set and Test set results
+
+The results of the SVM model are visualized using matplotlib. Separate plots are created to show the decision boundaries on the training set and test set. The data points are color-coded based on their actual class, and the decision boundary is plotted.
+
+Note: This readme assumes that the dataset file 'Social_Network_Ads.csv' is present in the same directory as the notebook. Please make sure to adjust the file path if needed.
