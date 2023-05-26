@@ -943,3 +943,50 @@ The code uses the Wine dataset (`Wine.csv`) for demonstration purposes. The data
 - Making predictions and evaluating the model's performance using a confusion matrix and accuracy score.
 - Visualizing the training and test set results using scatter plots.
 
+## 🔹 Kernel PCA
+
+This notebook demonstrates the application of Kernel Principal Component Analysis (Kernel PCA) and Logistic Regression on the Wine dataset.
+
+### Dataset
+
+The Wine dataset is used for this analysis. It contains information about different chemical properties of wines and their corresponding classes.
+
+### Usage
+
+1. Import the necessary libraries.
+2. Import the dataset.
+3. Split the dataset into the training set and test set.
+4. Perform feature scaling on the data.
+5. Apply Kernel PCA on the training set and test set using the RBF kernel.
+6. Train a Logistic Regression model on the transformed training set.
+7. Make predictions on the test set.
+8. Evaluate the model by creating a confusion matrix and calculating the accuracy.
+9. Visualize the training set and test set results using scatter plots.
+
+### Dependencies
+
+The following Python libraries are required to run the code:
+
+- NumPy
+- Matplotlib
+- Pandas
+- Scikit-learn
+
+You can install the dependencies using pip:
+
+```bash
+pip install numpy matplotlib pandas scikit-learn
+```
+
+### Running the Notebook
+
+To run the notebook, follow these steps:
+
+Download the Wine dataset (Wine.csv) and place it in the same directory as the notebook.
+Open the notebook using Jupyter Notebook or any compatible environment.
+Run each cell of the notebook sequentially.
+Note: Make sure to update the file path in the code if the dataset is located in a different directory.
+
+### Results
+
+The notebook generates visualizations of the training set and test set results, showing the decision boundaries of the Logistic Regression model in the reduced-dimensional space obtained through Kernel PCA.
