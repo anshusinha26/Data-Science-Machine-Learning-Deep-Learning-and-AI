@@ -1064,3 +1064,38 @@ Grid Search is performed to find the best combination of hyperparameters for the
 The results of the SVM model are visualized using matplotlib. Separate plots are created to show the decision boundaries on the training set and test set. The data points are color-coded based on their actual class, and the decision boundary is plotted.
 
 Note: This readme assumes that the dataset file 'Social_Network_Ads.csv' is present in the same directory as the notebook. Please make sure to adjust the file path if needed.
+
+
+# 🟫 Boosting
+
+## 🔹 XGBoost
+
+This notebook demonstrates how to use XGBoost, an optimized gradient boosting algorithm, for classification tasks.
+
+### Importing the libraries
+
+The necessary libraries are imported to work with data and XGBoost.
+
+### Importing the dataset
+
+The dataset is imported using pandas and split into features (X) and target variable (Y).
+
+### Label encoding
+
+If the target variable has non-binary values, label encoding is applied to convert them into numerical labels.
+
+### Splitting the dataset into the Training set and Test set
+
+The dataset is divided into training and test sets using the `train_test_split` function from scikit-learn.
+
+### Training XGBoost on the Training set
+
+An XGBoost classifier is created and trained on the training set.
+
+### Making the Confusion Matrix
+
+The trained model is used to predict the target variable for the test set. The confusion matrix and accuracy score are calculated to evaluate the model's performance.
+
+### Applying k-Fold Cross Validation
+
+k-Fold cross-validation is performed to estimate the model's performance on unseen data. The accuracy and standard deviation of the accuracies are printed.
