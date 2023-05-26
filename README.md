@@ -857,3 +857,48 @@ Note: Make sure you have Python 3 and Jupyter Notebook installed on your system.
 The model's performance is evaluated using a confusion matrix and accuracy score. The confusion matrix provides insights into the true positive, true negative, false positive, and false negative predictions. The accuracy score indicates the overall accuracy of the model in classifying the reviews.
 
 The project aims to demonstrate the application of natural language processing techniques for sentiment analysis. Feel free to explore the code and experiment with different algorithms or datasets.
+
+
+# ⬛️ Dimensionality reduction
+
+## 🔹 Principal Component Analysis (PCA) with Logistic Regression
+
+This repository contains a Jupyter Notebook file (`Principal_component_analysis.ipynb`) that demonstrates how to perform Principal Component Analysis (PCA) and train a Logistic Regression model on a dataset using scikit-learn.
+
+### Dependencies
+
+- Python 3.x
+- NumPy
+- pandas
+- scikit-learn
+- matplotlib
+
+### Installation
+
+1. Install the required dependencies using pip:
+
+```bash
+pip install numpy pandas scikit-learn matplotlib
+```
+
+### Usage
+
+1. Open the Jupyter Notebook file `Principal_component_analysis.ipynb` in Jupyter Notebook or JupyterLab.
+
+2. Run the notebook cells sequentially to execute the code.
+
+### Dataset
+
+The code uses the Wine dataset (`Wine.csv`) for demonstration purposes. The dataset is read into a pandas DataFrame and split into training and test sets.
+
+### Features
+
+- Importing the necessary libraries: NumPy, pandas, and scikit-learn.
+- Loading and preprocessing the dataset.
+- Splitting the dataset into training and test sets.
+- Applying feature scaling using StandardScaler.
+- Performing Principal Component Analysis (PCA) to reduce the dimensionality of the dataset.
+- Training a Logistic Regression model on the training set.
+- Making predictions and evaluating the model's performance using a confusion matrix.
+- Visualizing the training and test set results using scatter plots.
+
