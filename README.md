@@ -990,3 +990,40 @@ Note: Make sure to update the file path in the code if the dataset is located in
 ### Results
 
 The notebook generates visualizations of the training set and test set results, showing the decision boundaries of the Logistic Regression model in the reduced-dimensional space obtained through Kernel PCA.
+
+
+# ⬜️ Model selection
+
+## 🔹 k-Fold Cross Validation
+
+This repository contains an example implementation of k-Fold Cross Validation in a Jupyter Notebook.
+
+### Overview
+
+k-Fold Cross Validation is a resampling technique used in machine learning to evaluate the performance and generalization ability of a model. It involves splitting the dataset into k subsets or folds, training the model on k-1 folds, and evaluating it on the remaining fold. This process is repeated k times, with each fold serving as the test set once. The results from each iteration are then averaged to obtain an overall performance metric for the model.
+
+### Implementation
+
+The notebook K_fold_cross_validation.ipynb demonstrates the application of k-Fold Cross Validation on a dataset using the Support Vector Machine (SVM) algorithm. The steps involved in the implementation are as follows:
+
+1. Importing the required libraries: This includes numpy, matplotlib, and pandas for data manipulation and visualization.
+
+2. Importing the dataset: The dataset (in this case, Social_Network_Ads.csv) is imported using pandas. The features are assigned to the variable X, and the target variable is assigned to the variable Y.
+
+3. Splitting the dataset: The dataset is split into training and test sets using the train_test_split function from scikit-learn. The training set is used for model training, while the test set is used for evaluation.
+
+4. Feature Scaling: The feature variables are scaled using the StandardScaler from scikit-learn to ensure that they are on a similar scale.
+
+5. Training the Kernel SVM model: The Support Vector Machine (SVM) model with a radial basis function (RBF) kernel is trained on the training set using the SVC class from scikit-learn.
+
+6. Making the Confusion Matrix: The performance of the trained model is evaluated using the confusion matrix and the accuracy score from scikit-learn.
+
+7. Applying k-Fold Cross Validation: The cross_val_score function from scikit-learn is used to perform k-Fold Cross Validation on the training set. The accuracy scores from each iteration are computed and the mean and standard deviation of the scores are printed.
+
+8. Visualizing the results: The training set and test set results are visualized using matplotlib. The decision boundary of the SVM model is plotted along with the data points, allowing for visual inspection of the model's performance.
+
+### Usage
+
+To run the notebook, you will need Jupyter Notebook installed. You can open the notebook in Jupyter and execute the code cells sequentially.
+
+Make sure to have the Social_Network_Ads.csv file in the same directory as the notebook or provide the correct path to the dataset file in the code.
