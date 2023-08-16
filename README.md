@@ -1,4 +1,17 @@
-# 🟥 Regression
+# 🟩⏤ Machine learning A-Z ⏤🟩
+
+## Table of contents
+- [🟥 Regression](#regression)
+- [🟧 Classification](#classification)
+- [🟨 Clustering](#clustering)
+- [🟩 Association rule learning](#association-rule-learning)
+- [🟦 Reinforcement learning](#reinforcement-learning)
+- [🟪 Natural language processing](#natural-language-processing-nlp)
+- [⬛️ Dimensionality reduction](#dimensionality-reduction)
+- [⬜️ Model selection](#model-selection)
+- [🟫 Boosting](#boosting)
+
+# Regression
 
 ## 🔹 Data Preprocessing Tools
 
@@ -1099,3 +1112,5 @@ The trained model is used to predict the target variable for the test set. The c
 ### Applying k-Fold Cross Validation
 
 k-Fold cross-validation is performed to estimate the model's performance on unseen data. The accuracy and standard deviation of the accuracies are printed.
+
+- [Back to table of contents - 🟩⏤ Machine learning A-Z ⏤🟩](#table-of-contents)
