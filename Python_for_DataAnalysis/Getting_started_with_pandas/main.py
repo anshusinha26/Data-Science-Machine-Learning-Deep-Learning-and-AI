@@ -33,3 +33,34 @@ import numpy as np
 # print(obj4)
 # obj4.name = 'Countries and their Capitals'
 # print(obj4)
+
+# ----- #
+
+# # DATAFRAME
+# data = {
+#     'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada'],
+#     'year': [2000, 2001, 2002, 2001, 2002],
+#     'pop': [1.5, 1.7, 3.6, 2.4, 2.9]
+# }
+# frame1 = pd.DataFrame(data)
+# print(frame1)
+# frame1 = pd.DataFrame(data, columns=['year', 'state', 'pop'])
+# print(frame1)
+
+# frame2 = pd.DataFrame(
+#     data, columns=['year', 'state', 'pop', 'debt'],
+#     index=['one', 'two', 'three', 'four', 'five']
+# )
+# print(frame2)
+# print(frame2.columns)
+# print(frame2['state'])
+# print(frame2.state)
+# print(frame2.loc['one'])
+# frame2.debt = np.arange(5)
+# print(frame2)
+# frame2['eastern'] = frame2.state == 'Nevada'
+# print(frame2)
+# del frame2['eastern']
+# print(frame2)
+# frame2 = frame2.T  # transposed dataframe
+# print(frame2)
