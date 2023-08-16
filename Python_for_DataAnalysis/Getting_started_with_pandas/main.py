@@ -64,3 +64,11 @@ import numpy as np
 # print(frame2)
 # frame2 = frame2.T  # transposed dataframe
 # print(frame2)
+
+# ----- #
+
+# # INDEX OBJECTS
+# obj = pd.Series(range(3), index=['a', 'b', 'c'])
+# print(obj)
+#
+# obj.index[0] = 'd'  # index object are immutable
