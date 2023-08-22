@@ -72,3 +72,7 @@ import numpy as np
 # print(obj)
 #
 # obj.index[0] = 'd'  # index object are immutable
+
+# ----- #
+
+# ESSENTIAL FUNCTIONALITY
